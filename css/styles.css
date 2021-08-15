@@ -1,0 +1,73 @@
+/* 
+Основной цвет фона #E5E5E5
+Цвет фона подвала сайта и Героя #2F303A
+Основной цвет текста - #757575
+Вторичный цвет текста- #212121
+Акцент текста - #2196F3
+Заглавный текст Героя - #FFFFFF
+Логотип подвал #2196F3 и #FFFFFF
+Логотип хэдер #2196F3 и #000000
+Тень логотипа - #000000
+Кнопка героя: фот - #2196F3 текст - #FFFFFF
+
+ */
+
+:root {
+  --main-bg-color: #e5e5e5;
+  --button-bg-color: #2196f3;
+  --footer-bg-color: #2f303a;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --button-text-color: #ffffff;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--primary-text-color);
+}
+
+.logo {
+  text-shadow: 0px 4px 4px (0, 0, 0, 0.25);
+}
+.logo-span {
+  color: #2196f3;
+}
+
+header .logo {
+  color: #000000;
+}
+
+footer .logo {
+  color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+.telephone {
+  text-shadow: 0px 4px 4px (0, 0, 0, 0.25);
+}
+
+.hero-heading {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  cursor: pointer;
+}
