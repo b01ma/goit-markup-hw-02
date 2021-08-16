@@ -7,16 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Домашняя работа №2</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+    </style>
 </head>
 
 <body>
     <!-- Хедер веб сайта -->
     <header>
-        <a class="link logo" href="./index.html"><span class="logo-span">Web</span>Studio</a>
+        <a class="link logo" href="./index.html">Web<span class="logo-span link">Studio</span></a>
 
         <!-- Навигация  -->
         <nav class="nav">
-            <ul class="list">
+            <ul class="nav-list list">
                 <li>
                     <a class="link" href="">Студия</a>
                 </li>
@@ -30,13 +33,13 @@
         </nav>
 
         <!-- Контакты -->
-        <div>
-            <ul class="list">
+        <div class="nav-contacts">
+            <ul class="contact-list list">
                 <li>
-                    <a class="link" href="">info@devstudio.com</a>
+                    <a class="link contacts" href="">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="link telephone" href="">+38 096 111 11 11</a>
+                    <a class="link contacts" href="">+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -46,13 +49,15 @@
     <!-- Основной контент сайта -->
     <main>
         <!-- Герой -->
-        <h1 class="hero-heading" >ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <section class="hero">
+            <h1 class="hero-heading">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button class="hero-button" type="button">Заказать услугу</button>
+        </section>
 
         <!-- Преимущества -->
-        <section>
-            <h2>Преимущества</h2>
-            <ul class="list">
+        <section class="advantage">
+            <h2 class="heading">Преимущества</h2>
+            <ul class="advantage-list list">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -73,9 +78,9 @@
         </section>
 
         <!-- О компании -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul class="list">
+        <section class="about">
+            <h2 class="heading">Чем мы занимаемся</h2>
+            <ul class="about-list list">
                 <li>
                     <img src="./images/aboutImage1.jpeg" alt="Фото програмиста за работой" width="370">
                 </li>
@@ -89,9 +94,9 @@
         </section>
 
         <!-- Команда компании -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul class="list">
+        <section class="team" >
+            <h2 class="heading">Наша команда</h2>
+            <ul class="team-list list">
                 <li>
                     <img src="./images/teamcard1.jpeg" alt="Фото Игоря Демянова" width="270">
                 </li>
@@ -109,17 +114,17 @@
     </main>
 
     <!-- Подвал веб сайта -->
-    <footer>
-        <a class="link logo" href="./index.html"><span class="logo-span">Web</span>Studio</a>
-        <ul class="list">
+    <footer class="footer">
+        <a class="link logo" href="./index.html">Web<span class="logo-span link">Studio</span></a>
+        <ul class="fotter-list list">
             <li>
-                <address>г. Киев, пр-т Леси Украинки, 26</address>
+                <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
             </li>
             <li>
-                <a class="link" href="">info@example.com</a>
+                <a class="link footer-contacts" href="">info@example.com</a>
             </li>
             <li>
-                <a class="link telephone" href="">+38 099 111 11 11</a>
+                <a class="link footer-contacts" href="">+38 099 111 11 11</a>
             </li>
         </ul>
 
