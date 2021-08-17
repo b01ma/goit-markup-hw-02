@@ -80,6 +80,11 @@ header .logo-span {
   color: var(--primary-text-color);
 }
 
+.nav-contacts .link:focus,
+.nav-contacts .link:hover {
+  color: var(--accent-text-color);
+}
+
 .nav-contacts .footer-contacts {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
